@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project integrity="4a570dbf87352642b2fcf3396fcffa2f6c528e5a" source="4.0.0.t" version="1.0">
+<project integrity="41e3fd055a5bc2df6e61d8e74e025f605ec616db" source="4.0.0.t" version="1.0">
   This file is intended to be loaded by Logisim-evolution v4.0.0.t(https://github.com/logisim-evolution/).
 
   <lib desc="#Wiring" name="0">
@@ -1107,7 +1107,36 @@ end type_architecture;
     <a name="circuit" val="Arithmetic"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
-    <comp lib="0" loc="(150,230)" name="Pin">
+    <comp lib="0" loc="(110,230)" name="Splitter">
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="0"/>
+      <a name="bit3" val="1"/>
+      <a name="bit4" val="2"/>
+      <a name="date" val="2026-11-15T22:10:02+0100"/>
+      <a name="fanout" val="3"/>
+      <a name="incoming" val="5"/>
+      <a name="integrity" val="661f267930ed4cb4acdfaca79fb5843af8f25af2"/>
+      <a name="owner" val="omar_egalahmed"/>
+      <a name="uuid" val="84e2fbdc-ffd6-4233-8f79-870facd4b653"/>
+      <a name="version" val="4.0.0.t"/>
+    </comp>
+    <comp lib="0" loc="(520,610)" name="NoConnect">
+      <a name="date" val="2026-11-15T22:33:44+0100"/>
+      <a name="integrity" val="aa8b1b66f32f5aef9047a036caf83c2b7e85c545"/>
+      <a name="owner" val="omar_egalahmed"/>
+      <a name="uuid" val="56de3ec7-4f4b-4eef-996e-69fdab3311bb"/>
+      <a name="version" val="4.0.0.t"/>
+      <a name="width" val="4"/>
+    </comp>
+    <comp lib="0" loc="(520,630)" name="NoConnect">
+      <a name="date" val="2026-11-15T22:33:51+0100"/>
+      <a name="integrity" val="0e14d1c3d85ca15da6c236171f684f89d5ceb442"/>
+      <a name="owner" val="omar_egalahmed"/>
+      <a name="uuid" val="d7ed3729-2e9a-4d45-873e-d4f0b58e40d9"/>
+      <a name="version" val="4.0.0.t"/>
+      <a name="width" val="4"/>
+    </comp>
+    <comp lib="0" loc="(90,230)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="date" val="2023-09-05T08:14:08+0200"/>
       <a name="integrity" val="77ee46ffc3ea59fb8d6ea3bd17097efd1779cdfa"/>
@@ -1115,8 +1144,9 @@ end type_architecture;
       <a name="owner" val="basile_cuneo"/>
       <a name="uuid" val="efb3c6ef-7efa-4150-9e51-9b1858565708"/>
       <a name="version" val="2.16.8.t"/>
+      <a name="width" val="5"/>
     </comp>
-    <comp lib="0" loc="(150,300)" name="Pin">
+    <comp lib="0" loc="(90,300)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="date" val="2024-10-18T15:29:33+0200"/>
       <a name="integrity" val="b94eab4ea915dbb4feb542af24ceac543c8be01f"/>
@@ -1126,7 +1156,7 @@ end type_architecture;
       <a name="version" val="2.16.8.t"/>
       <a name="width" val="4"/>
     </comp>
-    <comp lib="0" loc="(150,390)" name="Pin">
+    <comp lib="0" loc="(90,390)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="date" val="2024-10-18T15:29:33+0200"/>
       <a name="integrity" val="b94eab4ea915dbb4feb542af24ceac543c8be01f"/>
@@ -1170,13 +1200,57 @@ end type_architecture;
       <a name="version" val="4.0.0.t"/>
       <a name="width" val="4"/>
     </comp>
-    <comp lib="8" loc="(255,190)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="A vous de régler le nombre de bits pour l'opcode (supprimez ensuite ce texte)"/>
-    </comp>
-    <comp loc="(480,430)" name="Comp"/>
-    <comp loc="(520,240)" name="Calculation"/>
-    <comp loc="(790,400)" name="Arithmetic_selection"/>
+    <comp loc="(440,240)" name="Calculation"/>
+    <comp loc="(690,510)" name="Comp"/>
+    <comp loc="(880,380)" name="Arithmetic_selection"/>
+    <wire from="(130,200)" to="(150,200)"/>
+    <wire from="(130,210)" to="(180,210)"/>
+    <wire from="(130,220)" to="(130,380)"/>
+    <wire from="(130,380)" to="(660,380)"/>
+    <wire from="(150,200)" to="(150,590)"/>
+    <wire from="(150,590)" to="(520,590)"/>
+    <wire from="(180,210)" to="(180,240)"/>
+    <wire from="(180,240)" to="(220,240)"/>
+    <wire from="(180,260)" to="(180,300)"/>
+    <wire from="(180,260)" to="(220,260)"/>
+    <wire from="(210,280)" to="(210,390)"/>
+    <wire from="(210,280)" to="(220,280)"/>
+    <wire from="(440,240)" to="(630,240)"/>
+    <wire from="(440,260)" to="(470,260)"/>
+    <wire from="(440,280)" to="(460,280)"/>
+    <wire from="(440,300)" to="(460,300)"/>
+    <wire from="(440,320)" to="(460,320)"/>
+    <wire from="(460,280)" to="(460,300)"/>
+    <wire from="(460,280)" to="(910,280)"/>
+    <wire from="(460,300)" to="(460,320)"/>
+    <wire from="(460,300)" to="(490,300)"/>
+    <wire from="(460,320)" to="(460,550)"/>
+    <wire from="(460,320)" to="(510,320)"/>
+    <wire from="(460,550)" to="(520,550)"/>
+    <wire from="(470,260)" to="(470,570)"/>
+    <wire from="(470,570)" to="(520,570)"/>
+    <wire from="(490,300)" to="(490,510)"/>
+    <wire from="(490,510)" to="(520,510)"/>
+    <wire from="(510,320)" to="(510,340)"/>
+    <wire from="(510,340)" to="(510,530)"/>
+    <wire from="(510,340)" to="(940,340)"/>
+    <wire from="(510,530)" to="(520,530)"/>
+    <wire from="(520,550)" to="(530,550)"/>
+    <wire from="(630,240)" to="(630,400)"/>
+    <wire from="(630,400)" to="(660,400)"/>
+    <wire from="(660,400)" to="(670,400)"/>
+    <wire from="(660,420)" to="(660,470)"/>
+    <wire from="(660,470)" to="(720,470)"/>
+    <wire from="(690,510)" to="(720,510)"/>
+    <wire from="(720,470)" to="(720,510)"/>
+    <wire from="(880,380)" to="(910,380)"/>
+    <wire from="(90,230)" to="(110,230)"/>
+    <wire from="(90,300)" to="(180,300)"/>
+    <wire from="(90,390)" to="(210,390)"/>
+    <wire from="(910,270)" to="(910,280)"/>
+    <wire from="(910,270)" to="(940,270)"/>
+    <wire from="(910,380)" to="(910,410)"/>
+    <wire from="(910,410)" to="(940,410)"/>
   </circuit>
   <circuit name="Logic">
     <a name="appearance" val="logisim_evolution"/>
