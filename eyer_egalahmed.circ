@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project integrity="4545bac8656d42d76c63e8779d766ac7c796af94" source="4.0.0.t" version="1.0">
+<project integrity="65170579d3d4ff18d44a6725cd7aa80bcb1a07bc" source="4.0.0.t" version="1.0">
   This file is intended to be loaded by Logisim-evolution v4.0.0.t(https://github.com/logisim-evolution/).
 
   <lib desc="#Wiring" name="0">
@@ -968,13 +968,6 @@ end type_architecture;
       <a name="uuid" val="9e722745-a39a-4f31-b026-70623dec9dbc"/>
       <a name="version" val="4.0.0.t"/>
     </comp>
-    <comp lib="1" loc="(460,170)" name="AND Gate">
-      <a name="date" val="2026-10-30T18:14:39+0100"/>
-      <a name="integrity" val="9a7c91d585fe6b5bbd3e1f5709d82ac643a47fd9"/>
-      <a name="owner" val="egalahmed_eyer"/>
-      <a name="uuid" val="d9668ce4-745f-45ac-a1ac-c4a3673c7a94"/>
-      <a name="version" val="4.0.0.t"/>
-    </comp>
     <comp lib="2" loc="(490,300)" name="Multiplexer">
       <a name="date" val="2026-10-30T18:07:14+0100"/>
       <a name="integrity" val="0b4a0bae29aff61f86f0a6df8c9d55709275ee23"/>
@@ -1002,18 +995,13 @@ end type_architecture;
     <wire from="(310,150)" to="(310,280)"/>
     <wire from="(310,150)" to="(350,150)"/>
     <wire from="(310,280)" to="(450,280)"/>
-    <wire from="(370,190)" to="(370,210)"/>
-    <wire from="(370,190)" to="(410,190)"/>
     <wire from="(370,210)" to="(370,290)"/>
     <wire from="(370,290)" to="(450,290)"/>
-    <wire from="(380,150)" to="(410,150)"/>
-    <wire from="(400,220)" to="(400,270)"/>
-    <wire from="(400,220)" to="(470,220)"/>
+    <wire from="(380,150)" to="(400,150)"/>
+    <wire from="(400,150)" to="(400,270)"/>
     <wire from="(400,270)" to="(450,270)"/>
     <wire from="(430,260)" to="(450,260)"/>
     <wire from="(430,330)" to="(450,330)"/>
-    <wire from="(460,170)" to="(470,170)"/>
-    <wire from="(470,170)" to="(470,220)"/>
     <wire from="(470,330)" to="(470,340)"/>
     <wire from="(470,340)" to="(470,400)"/>
     <wire from="(490,300)" to="(850,300)"/>
